@@ -40,14 +40,64 @@ h1 {
 
 nav {
     clear: both;
-    height: 270px;
+    height: 550px;
     width: 100%;
     margin: 0px ;
-    background-color: black;
+    background-color: rgb(193, 183, 183);
 }
 nav a {
-    color: rgb(173, 12, 12);
+    color: rgb(246, 9, 9);
     text-decoration: none;
     text-align: center;
 
+}
+nav .opcao {
+    float: none;
+    width: 15%;
+    margin: 20px ;
+    padding: 10px 0;
+    font-size: 26px;
+    background: #726e6e;
+    
+}
+
+nav .opcao:hover {
+
+    background-color: #b5b3b3;
+}
+/* Área geral para conteúdos específicos de cada página*/
+
+section {
+    clear: both;
+    min-height: 360px;
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(147, 141, 141);
+}
+/*Rodapé*/
+
+footer {
+    background-color: rgb(173, 12, 12);
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+/*************************************Configuração da pg inicial***********************/
+
+section #topo {
+    height: 250px;
+    width: 900px;
+    margin: 0px auto;
+   
+}
+.direita {
+    float: right;
+    height: 250px;
+    width: 250px;
+}
+.abaixo {
+    float: right;
+    height: 250px;
+    width: 250px;
 }
