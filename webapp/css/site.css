@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*Configuração do corpo da página*/
+
+body{
+    margin: 0 outo;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Configuração gerais*/
+/* cabeçalho*/
+
+header{
+    height: 170px;
+    background-color: rgb(173, 12, 12);
+}
+
+header .esquerdo{
+    float: left;
+    height: 275px;
+    width: 200px;
+    margin-right: 0px;
+    
+
+}
+h1 {
+    float: left;    
+    margin: 50px 5px 5px 250px;
+    font-size: 60px;
+
+
+}
+ header .direito    {
+    float: right;
+    height: 275px;
+    width: 200px;
+    margin-right: 0px;
+} 
+
+/*menu */
+
+nav {
+    clear: both;
+    height: 270px;
+    width: 100%;
+    margin: 0px ;
+    background-color: black;
+}
+nav a {
+    color: rgb(173, 12, 12);
+    text-decoration: none;
+    text-align: center;
+
+}
