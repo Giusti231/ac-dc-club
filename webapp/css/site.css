@@ -2,7 +2,8 @@
 /*Configuração do corpo da página*/
 
 body{
-    margin: 0 outo;
+    
+    margin: 0 auto;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -16,7 +17,7 @@ header{
 
 header .esquerdo{
     float: left;
-    height: 275px;
+    height: 270px;
     width: 200px;
     margin-right: 0px;
     
@@ -40,10 +41,12 @@ h1 {
 
 nav {
     clear: both;
-    height: 550px;
-    width: 100%;
-    margin: 0px ;
-    background-color: rgb(193, 183, 183);
+    float: left;
+    height: auto;
+    width: 0;
+    width: 160px;
+    margin: 0px 2px 5px 20px ;
+    background-color: rgb(173, 12, 12);
 }
 nav a {
     color: rgb(246, 9, 9);
@@ -52,12 +55,12 @@ nav a {
 
 }
 nav .opcao {
-    float: none;
-    width: 15%;
-    margin: 20px ;
+    float: right; 
+    width: 95%;
+    margin: 5px  ;
     padding: 10px 0;
-    font-size: 26px;
-    background: #726e6e;
+    font-size: 36px;
+    background: #101010;
     
 }
 
@@ -67,37 +70,56 @@ nav .opcao:hover {
 }
 /* Área geral para conteúdos específicos de cada página*/
 
-section {
-    clear: both;
-    min-height: 360px;
-    width: 100%;
-    margin: 0px;
-    background-color: rgb(147, 141, 141);
+section #topo{
+    
+    float:right;
+    height: 260px;
+    width: 240px ;
+    margin: 0px 10px 1px 190px;
+
+    background-color: #aba5a5;
 }
-/*Rodapé*/
+.figura {
+    height: 296px;
+    width: 240px;
+}
+h2 {
+            
+    float:left;
+    text-align: center;
+    font-size: 50px;
+    height: 140px;
+    width: 200px;
+    margin: -80px 1px 10px -750px;
+    /* background-color: #6b5cb4; */
+
+}
+
+section #titulo{
+    float:right;
+    height: 250px;
+    width: 200px;
+    margin: -50px 1px 100px 50px;
+    background-color: #6b5cb4;
+}
+
+.abaixo{
+    /* float:right; */
+    height: 280px;
+    width: 240px;
+    /* margin: 0px 0px 0px 0px;
+    background-color: #6b5cb4; */
+
+}
 
 footer {
-    background-color: rgb(173, 12, 12);
-    color: #000;
+    clear: both;
+    background-color:  rgb(173, 12, 12);
     text-align: center;
     padding: 10px;
+
 }
 
-/*************************************Configuração da pg inicial***********************/
 
-section #topo {
-    height: 250px;
-    width: 900px;
-    margin: 0px auto;
-   
-}
-.direita {
-    float: right;
-    height: 250px;
-    width: 250px;
-}
-.abaixo {
-    float: right;
-    height: 250px;
-    width: 250px;
-}
+
+
