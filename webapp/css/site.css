@@ -4,7 +4,10 @@
 body{
     
     margin: 0 auto;
+    
     font-family: 'Times New Roman', Times, serif;
+    background-image: url(../img/Flag.jpg);
+    background-size: 100%;
 }
 
 /* Configuração gerais*/
@@ -92,6 +95,7 @@ h2 {
     height: 140px;
     width: 200px;
     margin: -95px 2px 0px -720px;
+    color: #fff;
     /* background-color: #6b5cb4; */
 
 }
