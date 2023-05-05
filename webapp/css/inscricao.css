@@ -13,29 +13,40 @@ body{
 }
 
 section h2{
-    display: flex;
+    /* display: flex; */
+    
     height: auto;
-    width: 300px;
-    font-size: 30px;
-    color: brown;
+    width: 400px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    color:#fff;
     align-items: center;
     text-align:center;
-    margin: 0px 10px 10px 280px;
-    padding: 0px 5px 1px 60px;
-    background-color: aliceblue;
+    margin: 0px 0px 1px 250px;
+    padding: 0px 5px 1px 35px;
+    /* background-color: aliceblue; */
+    border-style: double;
+    border-color: brown;
+    border-radius: 10px;
+    font-weight: bolder;
 }
 section p{
-    float:right;
+    
+    float:left;
     display: flex;
     height: auto;
     width: 500px;
-    font-size: 30px;
-    color: brown;
+    font-size: 20px;
+    color:#fff;
     /* align-items:end; */
     text-align:center;
-    margin: 0px 420px 100px 100px;
-    padding: 10px 10px 10px 10px;
-    background-color: aliceblue;
+    margin: 0px 20px 20px 200px;
+    padding: 0px 10px 5px 30px;
+    /* background-color: aliceblue; */
+    border-style: double;
+    border-color: brown;
+    border-radius: 10px;
+    font-weight: bolder;
 }
 
 /* .faleConosco{
@@ -54,7 +65,7 @@ section p{
     font-size: 20px;
     color: aliceblue;
     width: auto;
-    padding: 10px 10px 10px 10px;
+    padding: 0px 90px 0px 10px;
     margin:10px 200px 1px 200px;
     border-color: brown;
     border-radius: 10px ;
@@ -76,16 +87,16 @@ section p{
     align-items: center;
     width: auto;
     resize: none;
-    padding: 0px 400px 60px 1px;
+    padding: 0px 400px 10px 5px;
     margin: 0px 10px 10px 10px;
     
 }
 
 .faleConosco button{
-    clear: both;
+    /* clear: both; */
     font-size: 15px;
     float:right;
-    margin: 0px 80px 1px 1px;
+    margin: 0px 1px 1px 1px;
     padding: 10px 10px 10px 10px;
     background-color: rgb(95, 136, 163);
     border-radius: 5px;
