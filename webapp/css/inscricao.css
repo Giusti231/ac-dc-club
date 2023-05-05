@@ -1,0 +1,97 @@
+@charset "UTF-8";
+*{
+    /*reset css */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    height: auto;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section h2{
+    display: flex;
+    height: auto;
+    width: 300px;
+    font-size: 30px;
+    color: brown;
+    align-items: center;
+    text-align:center;
+    margin: 0px 10px 10px 280px;
+    padding: 0px 5px 1px 60px;
+    background-color: aliceblue;
+}
+section p{
+    float:right;
+    display: flex;
+    height: auto;
+    width: 500px;
+    font-size: 30px;
+    color: brown;
+    /* align-items:end; */
+    text-align:center;
+    margin: 0px 420px 100px 100px;
+    padding: 10px 10px 10px 10px;
+    background-color: aliceblue;
+}
+
+/* .faleConosco{
+    clear: both;
+    
+    font-size: 20px;
+    color: aliceblue;
+    margin: 0px  350px 0px 150px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    background-color: black;
+
+} */
+#prim, .faleConosco{
+    clear: both;
+    font-size: 20px;
+    color: aliceblue;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    margin:10px 200px 1px 200px;
+    border-color: brown;
+    border-radius: 10px ;
+    border-style:double;
+    
+}
+.faleConosco #nome, #email{
+    padding: 0px 110px 5px 1px;
+    margin: 1px 10px 10px 100px;
+    
+}
+.faleConosco #fone{
+    padding: 0px 10px 5px 1px;
+    margin: 0px 10px 10px 10px;
+}
+
+.faleConosco textarea{
+    clear: both;
+    align-items: center;
+    width: auto;
+    resize: none;
+    padding: 0px 400px 60px 1px;
+    margin: 0px 10px 10px 10px;
+    
+}
+
+.faleConosco button{
+    clear: both;
+    font-size: 15px;
+    float:right;
+    margin: 0px 80px 1px 1px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(95, 136, 163);
+    border-radius: 5px;
+    border-style: double;
+}
+.faleConosco button:hover{
+    background-color: brown;
+
+}

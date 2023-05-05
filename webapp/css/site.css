@@ -14,8 +14,11 @@ body{
 /* cabeçalho*/
 
 header{
-    height: 170px;
+    height: 140px;
+    width: auto;
     background-color: rgb(173, 12, 12);
+    margin: auto;
+    padding: auto;
 }
 
 header .esquerdo{
@@ -28,7 +31,7 @@ header .esquerdo{
 }
 h1 {
     float: left;    
-    margin: 10px 5px 5px 110px;
+    margin: 0px 5px 5px 110px;
     font-size: 130px;
 
 
@@ -38,6 +41,7 @@ h1 {
     height: 275px;
     width: 200px;
     margin-right: 0px;
+    
 } 
 
 /*menu */
@@ -58,11 +62,12 @@ nav a {
 
 }
 nav .opcao {
-    float: right; 
+    float: none; 
+    height: auto;
     width: 95%;
-    margin: 5px  ;
+    margin: 1px 1px 1px 3px ;
     padding: 10px 0;
-    font-size: 36px;
+    font-size: 20px;
     background: #101010;
     
 }

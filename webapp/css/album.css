@@ -17,63 +17,61 @@ body{
     /* background-size: 100%; */
 }
 
-section table{
+section table {
     
-   float: left;
-   margin: 0px 100px 90px 200px;
-   
-    background-color: blueviolet;
+   float: none;
+   height: 10px;
+   width: auto;
+   margin: 0px 0px 0px 30px;
+   padding: 0px 0px 0px 0px;
+   border: 1px solid #ef0909;
+    /* background-color: blueviolet; */
 }
 
-h2 {
+section h2 {
     /* clear: both; */
-    
+    clear: none;
     text-align: center;
-    padding: 0px 20px 30px 20px;
-    font-size: 20px;
-    height: 20px;
-    width: 200px;
-    margin: 0px 0px 20px 380px;
+    padding: 0px 50px 00px 50px;
+    font-size: 80px;
+    float: right;   
+    height: 0px;
+    width: 800px;
+    margin: 0px 200px 0px 50px;
     background-color: rgb(173, 12, 12);
 }
 
-thead, th{
-    
+section thead, th{
+    padding: 0px 20px 50px 0px;
+    margin: auto;
     float:none;
     text-align: center;
-    font-size: 30px;
-    background-color: aquamarine;
+    font-size: 60px;
     
-    
+    border: 1px solid #ef0909;;
     margin: 0px 20px 30px 0px;
 }
-
-/* section, .tabeAlbum{
-margin: 0px 10px 300px 10px;
-text-align: center;
-background-color: #787575;
+section tr, th, .tituloTabela  {
+    color: aliceblue;
+    height: 0px;
+    width: 0px;
+    padding: 0px 0px 0px 0px;
 }
-section, tr, th, .tituloTabela{
-    margin: 0px 10px 300px 10px;
-    text-align: center;
-    font-size: 50px;
-    border: 1px solid rgb(173, 12, 12);
-    
-} */
-
-
-
-
-
 
 thead, th, .figura{
+    
     height: 150px;
     width: 150px;
+
+    
+}
+thead, th{
+    height: 155px;
 }
 
 tbody, tr, td, option{
     text-align: center;
-    
+    border: 1px solid #ef0909;
     
 
 }
