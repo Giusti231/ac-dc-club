@@ -42,7 +42,7 @@ function validaFaleConosco() {
     // }
 
     var texto = document.frmFaleConosco.txacomentario.value;
-    var expRegNome = new RegExp("^(?i?m)[A-zÀ-ü0-9\.\,\:\;\$\n]{1,}([ ]{1}[A-zÀ-ü0-9\.\,\:\;\$\n]{1,})+$");
+    var expRegNome = new RegExp("^(?i?m)[A-zÀ-ü0-9.,:;$\n]{1,}([ ]{1}[A-zÀ-ü0-9.,:;$\n]{1,})+$");
     if (!expRegNome.test(texto)) {
         alert("Preencha o campo Comente corretamente.");
         document.frmFaleConosco.txacomentario.focus();
